@@ -19,7 +19,10 @@
 			  </mt-cell> -->
     	</mt-search>
     </div>
-    div.
+    <div class="todo-simple-btn-wraper">
+      <mt-button type="primary">取消</mt-button>
+      <mt-button type="primary">确定</mt-button>
+    </div>
 
   </div>
 </template>
@@ -34,22 +37,22 @@ export default {
       selValue: null,
       head: '/static/head.png',
       defaultResults: [{
-	    	title: '唐慧明',  
+	    	title: '唐慧明',
 	    	value: 'tanghuiming',
 	    	head: '/static/head/4.png'
-	    },  
-	    {  
-	    	title: '张映国',  
+	    },
+	    {
+	    	title: '张映国',
 	    	value: 'zhangyingguo',
 	    	head: '/static/head/5.png'
-	    },  
-	    {  
-	    	title: '李玉建',  
+	    },
+	    {
+	    	title: '李玉建',
 	    	value: 'liyujian',
 	    	head: '/static/head/6.png'
-	    },  
-	    {  
-	    	title: '杨思琦',  
+	    },
+	    {
+	    	title: '杨思琦',
 	    	value: 'yangsiqi',
 	    	head: '/static/head/7.png'
 	    }],
@@ -82,7 +85,7 @@ export default {
 				i.active = false;
 			}
 			obj.active = true;
-			
+
   	}
   }
 }
